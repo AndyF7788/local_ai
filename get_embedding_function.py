@@ -1,5 +1,5 @@
 from langchain_ollama import OllamaEmbeddings
-from langchain_aws.embeddings.bedrock import BedrockEmbeddings
+#from langchain_aws.embeddings.bedrock import BedrockEmbeddings
 
 
 def get_embedding_function():

@@ -3,3 +3,8 @@ langchain
 chromadb # Vector storage
 pytest
 boto3
+langchain-ollama
+langchain-community
+
+#install crewai, uninstall chromadb after and then reinstall to get updated version for rag --> crewai had to rollback the version but in our implementation crewai will not interact with chroma
+#command that lets crewai install: export HNSWLIB_NO_NATIVE=1
