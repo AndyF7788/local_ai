@@ -36,7 +36,7 @@ def load_documents():
 
 def split_documents(documents: list[Document]):
     text_splitter = RecursiveCharacterTextSplitter(
-        chunk_size=800,
+        chunk_size=500, #was 800
         chunk_overlap=80,
         length_function=len,
         is_separator_regex=False,
@@ -108,4 +108,5 @@ def clear_database():
 
 
 if __name__ == "__main__":
+    #clear_database()
     main()
